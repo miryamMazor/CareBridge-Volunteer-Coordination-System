@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Bll": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "TWILIO_AUTH_TOKEN": "175270f4e7bdc17519a7f520dfb1d56d",
+        "TWILIO_ACCOUNT_SID": "AC68b35bb6f7e00fd847c140ddd736737e"
+      }
+    }
+  }
+}

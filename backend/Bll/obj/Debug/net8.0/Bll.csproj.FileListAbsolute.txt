@@ -1,0 +1,98 @@
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Bll.deps.json
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Bll.runtimeconfig.json
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.AssemblyInfo.cs
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\refint\Bll.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.genruntimeconfig.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\ref\Bll.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Bll\obj\Debug\net8.0\Bll.csproj.Up2Date
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Bll.deps.json
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Bll.runtimeconfig.json
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\פרויקט\Bll\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.AssemblyInfo.cs
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.sourcelink.json
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.csproj.Up2Date
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\refint\Bll.dll
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\Bll.genruntimeconfig.cache
+C:\Users\user\Desktop\פרויקט\Bll\obj\Debug\net8.0\ref\Bll.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Bll.deps.json
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Bll.runtimeconfig.json
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.AssemblyInfo.cs
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.csproj.Up2Date
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\refint\Bll.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\Bll.genruntimeconfig.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Bll\obj\Debug\net8.0\ref\Bll.dll
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Bll.deps.json
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Bll.runtimeconfig.json
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\newFinal\Final\Bll\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.AssemblyInfo.cs
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.sourcelink.json
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.csproj.Up2Date
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.dll
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\refint\Bll.dll
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.pdb
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\Bll.genruntimeconfig.cache
+C:\Users\user\Desktop\newFinal\Final\Bll\obj\Debug\net8.0\ref\Bll.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Bll.deps.json
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Bll.runtimeconfig.json
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Bll.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Bll.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Dal.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Dto.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Dal.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\bin\Debug\net8.0\Dto.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.csproj.AssemblyReference.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.AssemblyInfoInputs.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.AssemblyInfo.cs
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.sourcelink.json
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.csproj.Up2Date
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\refint\Bll.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\Bll.genruntimeconfig.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Bll\obj\Debug\net8.0\ref\Bll.dll

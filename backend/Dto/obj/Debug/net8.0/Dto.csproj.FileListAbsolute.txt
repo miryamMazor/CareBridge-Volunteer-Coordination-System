@@ -1,0 +1,88 @@
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\bin\Debug\net8.0\Dto.deps.json
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\bin\Debug\net8.0\Dto.runtimeconfig.json
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.AssemblyInfo.cs
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\refint\Dto.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.genruntimeconfig.cache
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\ref\Dto.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\פרויקט מתנדבים\VolunteersServer\Dto\obj\Debug\net8.0\Dto.csproj.Up2Date
+C:\Users\user\Desktop\פרויקט\Dto\bin\Debug\net8.0\Dto.deps.json
+C:\Users\user\Desktop\פרויקט\Dto\bin\Debug\net8.0\Dto.runtimeconfig.json
+C:\Users\user\Desktop\פרויקט\Dto\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\פרויקט\Dto\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\פרויקט\Dto\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\פרויקט\Dto\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.AssemblyInfo.cs
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.sourcelink.json
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.csproj.Up2Date
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\refint\Dto.dll
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\Dto.genruntimeconfig.cache
+C:\Users\user\Desktop\פרויקט\Dto\obj\Debug\net8.0\ref\Dto.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\bin\Debug\net8.0\Dto.deps.json
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\bin\Debug\net8.0\Dto.runtimeconfig.json
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.AssemblyInfo.cs
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.csproj.Up2Date
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\refint\Dto.dll
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\Dto.genruntimeconfig.cache
+C:\Users\user\Desktop\VolunteersServerFinal\Dto\obj\Debug\net8.0\ref\Dto.dll
+C:\Users\user\Desktop\newFinal\Final\Dto\bin\Debug\net8.0\Dto.deps.json
+C:\Users\user\Desktop\newFinal\Final\Dto\bin\Debug\net8.0\Dto.runtimeconfig.json
+C:\Users\user\Desktop\newFinal\Final\Dto\bin\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\newFinal\Final\Dto\bin\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\newFinal\Final\Dto\bin\Debug\net8.0\Dal.dll
+C:\Users\user\Desktop\newFinal\Final\Dto\bin\Debug\net8.0\Dal.pdb
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.AssemblyInfo.cs
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.sourcelink.json
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.csproj.Up2Date
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.dll
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\refint\Dto.dll
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.pdb
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\Dto.genruntimeconfig.cache
+C:\Users\user\Desktop\newFinal\Final\Dto\obj\Debug\net8.0\ref\Dto.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\bin\Debug\net8.0\Dto.deps.json
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\bin\Debug\net8.0\Dto.runtimeconfig.json
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\bin\Debug\net8.0\Dto.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\bin\Debug\net8.0\Dto.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\bin\Debug\net8.0\Dal.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\bin\Debug\net8.0\Dal.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.csproj.AssemblyReference.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.AssemblyInfoInputs.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.AssemblyInfo.cs
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.sourcelink.json
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.csproj.Up2Date
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\refint\Dto.dll
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.pdb
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\Dto.genruntimeconfig.cache
+C:\Users\shalo\Downloads\שרת מתנדבים\Final\Dto\obj\Debug\net8.0\ref\Dto.dll
