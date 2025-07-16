@@ -1,0 +1,57 @@
+<h2>➕ הוספת מטופל</h2>
+
+<form (ngSubmit)="addPatient()" class="patient-form">
+    <label>🙋‍♂️ שם מלא</label>
+    <input type="text" [(ngModel)]="patient.name" name="name" placeholder="הכנס שם מלא" required>
+
+    <label>🆔 תעודת זהות</label>
+    <input type="text" [(ngModel)]="patient.tz" name="tz" placeholder="תעודת זהות" required>
+
+    <label>🔑 סיסמה</label>
+    <input type="password" [(ngModel)]="patient.password" name="password" placeholder="סיסמה" required>
+
+    <label>📞 טלפון</label>
+    <input type="text" [(ngModel)]="patient.phone" name="phone" placeholder="מספר טלפון" required>
+
+    <label>⚧ מגדר</label>
+    <select [(ngModel)]="patient.gender" name="gender">
+        <option [value]="null">בחר מגדר</option>
+        <option value="זכר">זכר</option>
+        <option value="נקבה">נקבה</option>
+        <option value="אחר">אחר</option>
+    </select>
+
+    <label>🏥 בית חולים</label>
+    <select [(ngModel)]="patient.hospitalId" name="hospitalId" (change)="onHospitalChange(patient.hospitalId!)" required>
+        <option [value]="null">בחר בית חולים</option>
+        <option *ngFor="let hospital of hospitals" [value]="hospital.id">{{ hospital.name }}</option>
+    </select>
+
+    <label>🏨 מחלקה</label>
+    <select [(ngModel)]="patient.departmentId" name="departmentId" [disabled]="isDepartmentDisabled" required>
+        <option [value]="null">בחר מחלקה</option>
+        <option *ngFor="let department of departments" [value]="department.id">{{ department.name }}</option>
+    </select>
+
+    <label>🏠 מספר חדר</label>
+    <input type="number" [(ngModel)]="patient.roomNumber" name="roomNumber" placeholder="הכנס מספר חדר">
+
+    <label>🎂 תאריך לידה</label>
+    <input type="date" [(ngModel)]="patient.birthDate" name="birthDate">
+
+    <button type="submit">➕ הוסף מטופל</button>
+</form>
+
+<br><br>
+<h3>📂 העלאת מטופלים מקובץ Excel</h3>
+<input type="file" (change)="onFileChange($event)" accept=".xls, .xlsx">
+<button (click)="addPatientsFromExcel()" [disabled]="!patientsFromExcel.length">
+  הוסף מטופלים מהרשימה
+</button>
+
+<h3>📋 רשימת מטופלים:</h3>
+<ul>
+  <li *ngFor="let patient of patientsFromExcel">
+    {{ patient.name }} - {{ patient.phone }} - {{ patient.roomNumber }}
+  </li>
+</ul>

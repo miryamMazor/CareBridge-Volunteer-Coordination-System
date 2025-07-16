@@ -1,0 +1,17 @@
+<div class="menu-toggle">
+    <div 
+      class="toggle-option" 
+      [ngClass]="{ 'active': selectedComponent === 'TableP' }"
+      (click)="navigate('TableP')">
+      הפניות שלי
+    </div>
+    <div 
+      class="toggle-option" 
+      [ngClass]="{ 'active': selectedComponent === 'contact' }"
+      (click)="navigate('contact')">
+      פניה חדשה
+    </div>
+  </div><br>
+  
+  <router-outlet></router-outlet>
+  

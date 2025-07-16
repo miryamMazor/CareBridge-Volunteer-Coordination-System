@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>פרטי מתנדב</h2>
+<div mat-dialog-content>
+  <p><strong>שם:</strong> {{ volunteer.name }}</p>
+  <p><strong>טלפון:</strong> {{ volunteer.phone }}</p>
+  <p><strong>מספר מזהה:</strong> {{ volunteer.id }}</p>
+  <p><strong>תפקיד:</strong> {{ volunteer.role }}</p>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="close()">סגור</button>
+</div>

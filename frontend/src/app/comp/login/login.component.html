@@ -1,0 +1,99 @@
+<div [ngClass]="flag ? 'container log-in' : 'container'">
+  <div class="box"></div>
+  <div class="container-forms">
+    <div class="container-info">
+      <div class="info-item">
+        <div class="table">
+          <div class="table-cell">
+            <p>
+              יש לך חשבון?
+            </p>
+            <div class="btn">
+              התחברות
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="table">
+          <div class="table-cell">
+            <p>
+              ?אין לך עדין חשבון
+            </p>
+            <div class="btn">
+              הרשמה
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-form">
+      <form (ngSubmit)="sendLogin()" [formGroup]="fromLogin">
+        <div class="form-item log-in">
+          <div class="table">
+            <div class="table-cell">
+              <label class="myinvalid" for="id">תעודת זהות</label>
+              <input name="id" placeholder="תעודת זהות" type="text" formControlName="id" />
+              <div *ngIf="id.invalid &&(id.touched ||id.dirty)">
+                <p class="myinvalid" *ngIf="id.hasError('errNull')"> שדה חבה </p>
+                <p class="myinvalid" *ngIf="id.hasError('errIsNot9')">ת.ז שגיוה</p>
+              </div>
+              <label class="myinvalid" for="password">סיסמה</label>
+              <input name="assword" placeholder="סיסמה" type="password" formControlName="password" />
+              <div *ngIf="password.invalid &&(password.touched ||password.dirty)">
+                <p class="myinvalid" *ngIf="fromLogin.controls!['password'].hasError('required')">שדה חובה</p>
+              </div>
+              <div class="btn" (click)="login()">
+                התחברות
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <form (ngSubmit)="sendSingIn()" [formGroup]="fromSingIn"></form>
+      <div class="form-item sign-up">
+        <div class="table">
+          <div class="table-cell">
+            <!-- נער שירות && מטופל -->
+            <br>
+            <input name="name" placeholder="שם" type="text" formControlName="name"/>
+            <input name="tz" placeholder="תעודת זהות" type="text"formControlName="tz" />
+            <input name="phone" placeholder="טלפון" type="text" formControlName="phone"/>
+            <!-- <input name="Gender" placeholder="מין" type="text" /> -->
+            <label class="lab">בחר מין</label>
+            <select title="בחר מין" name="gender" id="gender" formControlName="gender">
+              <option value="זכר">זכר</option>
+              <option value="נקבה">נקבה</option>
+            </select>
+            <input name="hospitalId" placeholder="מספר בית חולים" type="number" formControlName="hospitalId"/>
+            <input name="departmentId" placeholder="מזהה מחלקה" type="number" formControlName="departmentId"/>
+            <div>
+              <div class="div">
+                <button class="class" (click)="VolunteersY()">נער שירות</button>
+                <button class="class" (click)="PatientsY()">מטופל</button>
+              </div>
+              <div *ngIf="Volunteers">
+                <!-- נער שירות -->
+
+                <input name="password" placeholder="password" type="p" />
+
+
+              </div>
+
+              <div *ngIf="Patients">
+                <!-- מטופל -->
+
+                <input name="birthDate" placeholder="תאריך לידה" type="date" />
+                <input name="roomNumber" placeholder="מספר חדר" type="number" />
+              </div>
+            </div>
+
+            <div class="btn" (click)="login()">
+              הרשמה
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

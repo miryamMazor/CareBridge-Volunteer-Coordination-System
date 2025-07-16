@@ -1,0 +1,25 @@
+<div class="menu-toggle">
+    <div 
+      class="toggle-option" 
+      [ngClass]="{ 'active': selectedComponent === 'list' }"
+      (click)="selectedComponent = 'list'">
+      🏥 רשימת כל המתנדבים
+    </div>
+    <div 
+      class="toggle-option" 
+      [ngClass]="{ 'active': selectedComponent === 'add' }"
+      (click)="selectedComponent = 'add'">
+      ➕ הוספת מתנדב
+    </div>
+  </div>
+  
+  <br>
+  
+  <div *ngIf="selectedComponent === 'list'">
+    <app-all-volunteer></app-all-volunteer>
+  </div>
+  
+  <div *ngIf="selectedComponent === 'add'">
+    <app-add-volunteer></app-add-volunteer>
+  </div>
+  

@@ -1,0 +1,22 @@
+
+   .menu-toggle {
+    display: flex;
+    justify-content: center;
+    background-color: #8e509c;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .toggle-option {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-option.active {
+    background-color: white;
+    color: #8e509c;
+    border-radius: 5px;
+  }
+  

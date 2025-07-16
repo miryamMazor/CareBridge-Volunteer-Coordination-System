@@ -1,0 +1,28 @@
+
+     /* ממרכז את התפריט */
+
+
+.menu-toggle {
+   
+    display: flex;
+    background: #1a1d28;
+    border-radius: 25px;
+    padding: 9px;
+    width: 95%;
+  }
+  
+  .toggle-option {
+    flex: 1;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #aaa;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  .toggle-option.active {
+    background: #8e509c;
+    color: white;
+  }
+  

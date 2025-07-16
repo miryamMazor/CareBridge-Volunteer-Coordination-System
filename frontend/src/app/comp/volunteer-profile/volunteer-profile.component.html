@@ -1,0 +1,17 @@
+
+
+<div class="switch-toggle">
+    <div class="switch-toggle-option" [ngClass]="{ 'active': selectedOption === 1 }" (click)="onToggleChange(1)">
+      <span>בהפסקה 〰️</span>
+    </div>
+    <div class="switch-toggle-option" [ngClass]="{ 'active': selectedOption === 2 }" (click)="onToggleChange(2)">
+      <span>פנוי ✔️</span>
+    </div>
+    <div class="switch-toggle-option" [ngClass]="{ 'active': selectedOption === 3 }" (click)="onToggleChange(3)">
+      <span>תפוס ✖️</span>
+    </div>
+    <div class="switch-toggle-option" [ngClass]="{ 'active': selectedOption === 4 }" (click)="onToggleChange(4)">
+      <span>לא נמצא ➖</span>
+    </div>
+  </div>
+  <!-- https://codepen.io/iamsaief/pen/VwqEYwm -->

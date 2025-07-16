@@ -1,0 +1,20 @@
+<h2>🏥 רשימת בתי חולים</h2>
+
+<ul class="hospital-list">
+  <li *ngFor="let hospital of hospitals" class="hospital-item">
+    <div class="hospital-header" (click)="toggleDepartments(hospital.id)">
+      <span>🏥 {{ hospital.name }} - 👨‍⚕️ {{ hospital.manager }} - 📞 {{ hospital.phone }}</span>
+      <button class="toggle-btn">
+        {{ expandedHospitalId === hospital.id ? '🔼' : '🔽' }}
+      </button>
+    </div>
+
+    <ul *ngIf="expandedHospitalId === hospital.id" class="department-list">
+      <li *ngFor="let department of departments[hospital.id]" class="department-item">
+        🏥 {{ department.name }} - 🏢 בניין: {{ department.build || 'לא ידוע' }}<br>
+        🏠 אגף: {{ department.wing || 'לא ידוע' }}<br>
+        🏬 קומה: {{ department.floorNum }}
+      </li>
+    </ul>
+  </li>
+</ul>

@@ -1,0 +1,20 @@
+<div class="container">
+  <nav class="sidebar"><h3> 📂 VOLUNTEERS ADMIN</h3 >
+
+    <ul>
+      <li><a (click)="showComponent('hospitals')" [class.active]="selectedComponent === 'hospitals'">🏥 ניהול בתי חולים</a></li>
+      <li><a (click)="showComponent('departments')" [class.active]="selectedComponent === 'departments'">🏨 ניהול מחלקות</a></li>
+      <li><a (click)="showComponent('volunteers')" [class.active]="selectedComponent === 'volunteers'">🤝 ניהול מתנדבים</a></li>
+      <li><a (click)="showComponent('patients')" [class.active]="selectedComponent === 'patients'">🩺 ניהול מטופלים</a></li>
+      <li><a (click)="showComponent('requests')" [class.active]="selectedComponent === 'requests'">📩 ניהול פניות</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <app-hospital-management *ngIf="selectedComponent === 'hospitals'"></app-hospital-management>
+    <app-department-management *ngIf="selectedComponent === 'departments'"></app-department-management>
+    <app-volunteer-management *ngIf="selectedComponent === 'volunteers'"></app-volunteer-management>
+    <app-patient-management *ngIf="selectedComponent === 'patients'"></app-patient-management>
+    <app-all-contacts-management *ngIf="selectedComponent === 'requests'"></app-all-contacts-management>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div dir="rtl" class="hospital-registration-container">
+  <h2>טופס רישום בית חולים</h2>
+  <form (ngSubmit)="registerHospital()">
+    <div>
+      <label for="hospitalName">שם בית החולים:</label>
+      <input id="hospitalName" name="name" [(ngModel)]="hospital.name" required>
+    </div>
+
+    <div>
+      <label for="hospitalManager">שם מנהל בית החולים:</label>
+      <input id="hospitalManager" name="manager" [(ngModel)]="hospital.manager" required>
+    </div>
+
+    <div>
+      <label for="hospitalPhone">טלפון:</label>
+      <input id="hospitalPhone" name="phone" [(ngModel)]="hospital.phone" required>
+    </div>
+
+    <button type="submit">רשום בית חולים</button>
+  </form>
+
+  <h2>טופס רישום מחלקה</h2>
+  <form (ngSubmit)="registerDepartment(hospital.id)">
+    <div>
+      <label for="departmentName">שם המחלקה:</label>
+      <input id="departmentName" name="name" [(ngModel)]="department.name" required>
+    </div>
+
+    <div>
+      <label for="departmentFloor">מספר קומה:</label>
+      <input id="departmentFloor" name="floorNum" type="number" [(ngModel)]="department.floorNum" required>
+    </div>
+
+    <div>
+      <label for="departmentWing">אגף:</label>
+      <input id="departmentWing" name="wing" [(ngModel)]="department.wing">
+    </div>
+
+    <button type="submit">רשום מחלקה</button>
+  </form>
+</div>

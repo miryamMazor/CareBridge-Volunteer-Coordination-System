@@ -1,0 +1,25 @@
+<div class="menu-toggle">
+    <div 
+      class="toggle-option" 
+      [ngClass]="{ 'active': selectedComponent === 'list' }"
+      (click)="selectedComponent = 'list'">
+      🏥 רשימת כל המטופלים
+    </div>
+    <div 
+      class="toggle-option" 
+      [ngClass]="{ 'active': selectedComponent === 'add' }"
+      (click)="selectedComponent = 'add'">
+      ➕ הוספת מטופל
+    </div>
+  </div>
+  
+  <br>
+  
+  <div *ngIf="selectedComponent === 'list'">
+    <app-all-patient></app-all-patient>
+  </div>
+  
+  <div *ngIf="selectedComponent === 'add'">
+    <app-add-patient></app-add-patient>
+  </div>
+  

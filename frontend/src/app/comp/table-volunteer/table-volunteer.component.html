@@ -1,0 +1,47 @@
+  <div class="status-container">:עדכן מצב פניותך
+    <app-volunteer-profile></app-volunteer-profile>
+  </div>
+  <div class="requests-container">
+
+    <table class="table-fill">
+
+      <thead>
+        <tr>
+          <th class="text-left">מספר פנייה</th>
+          <th class="text-left">שם מטופל</th>
+          <th class="text-left">תאור</th>
+          <th class="text-left">תאריך פנייה</th>
+          <th class="text-left">סטטוס</th>
+          <th class="text-left"> פעולה בפנייה</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contact of contacts">
+          <td>{{ contact.id }}</td>
+          <td>
+            <a href="#" (click)="viewPatientDetails(contact.patientId)">
+              {{ contact.patientName }}
+            </a>
+          </td>
+          <td>{{contact.description}}</td>
+          <td>{{ contact.date | date:'dd/MM/yyyy' }}</td>
+          <td>{{ contact.status }}</td>
+
+          <td>
+            <button *ngIf="contact.statusId === 7" (click)="handleContact(contact)">
+              🏥 טפל בפנייה
+            </button>
+          </td>
+
+
+          <!-- <td>
+          <button *ngIf="contact.status === 'pending'" (click)="assignContact(contact.id)">
+            טפל בפנייה
+          </button>
+        </td> -->
+
+        </tr>
+      </tbody>
+    </table><br>
+  </div>

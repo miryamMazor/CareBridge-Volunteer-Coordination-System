@@ -1,0 +1,89 @@
+/* עיצוב כללי לטבלה */
+.table-fill {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: right;
+    direction: rtl;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* עיצוב כותרת */
+  .table-fill thead tr {
+    background: #8e509c;
+    color: white;
+    text-align: right;
+  }
+  
+  /* עיצוב שורות */
+  .table-fill th, .table-fill td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* אפקט hover */
+  .table-fill tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  /* עיצוב כפתור */
+  .assign-btn {
+    background: #a17ca8;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* אפקט hover לכפתור */
+  .assign-btn:hover {
+    background: #8e509c;
+  }
+  
+  /* עיצוב כפתור */
+  .assign-btn-vol {
+    /* background: #a18ea5; */
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 4px 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* אפקט hover לכפתור */
+  .assign-btn-vol:hover {
+    background: #8e509c;
+  }
+  .volunteer-details {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .volunteer-details button {
+    margin-top: 70px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .volunteer-details button:hover {
+    background: darkred;
+  }
+  

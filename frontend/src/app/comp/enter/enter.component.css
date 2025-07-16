@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    height: 98vh; /* גובה מלא של הדף */
+  }
+  
+  .image-section {
+    flex: 1; /* 50% מהרוחב */
+    background-color: #f3f3f3; /* רקע זמני */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* מבטיח שהתמונה תתאים למסגרת */
+  }
+/*   
+  .content-section {
+    flex: 1.5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    background-color: #ffffff;
+  }
+   */
+   .content-section {
+    flex: 1.5; /* 50% מהרוחב */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px; /* אפשר לשנות את הערך */
+    background-color: #ffffff;
+  }
+  

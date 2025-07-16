@@ -1,0 +1,49 @@
+<!-- <h2>ניהול מחלקות</h2>
+
+<select [(ngModel)]="department.hospitalId">
+  <option *ngFor="let hospital of hospitals" [value]="hospital.id">
+    {{ hospital.name }}
+  </option>
+</select>
+
+<input type="text" [(ngModel)]="department.name" name="name" placeholder="שם מחלקה" required>
+<button (click)="addDepartment()">הוסף מחלקה</button>
+
+<ul>
+  <li *ngFor="let department of departments">
+    {{ department.name }} - {{ getHospitalName(department.hospitalId) }}
+    <button (click)="deleteDepartment(department.id)">🗑 מחק</button>
+  </li>
+</ul> -->
+
+
+<h2>ניהול מחלקות</h2>
+
+<label>בחר בית חולים:</label>
+<select [(ngModel)]="department.hospitalId">
+  <option *ngFor="let hospital of hospitals" [value]="hospital.id">
+    {{ hospital.name }}
+  </option>
+</select>
+
+<label>שם מחלקה:</label>
+<input type="text" [(ngModel)]="department.name" name="name" placeholder="שם מחלקה" required>
+
+<label>בניין:</label>
+<input type="text" [(ngModel)]="department.build" name="build" placeholder="בניין" required>
+
+<label>אגף:</label>
+<input type="text" [(ngModel)]="department.wing" name="wing" placeholder="אגף" required>
+
+<label>מספר קומה:</label>
+<input type="number" [(ngModel)]="department.floorNum" name="floorNum" placeholder="קומה" required>
+
+<button (click)="addDepartment()">הוסף מחלקה</button>
+
+<ul>
+  <li *ngFor="let department of departments">
+    {{ department.name }} - {{ getHospitalName(department.hospitalId) }} - 
+    בניין: {{ department.build }} - אגף: {{ department.wing }} - קומה: {{ department.floorNum }}
+    <button (click)="deleteDepartment(department.id)">🗑 מחק</button>
+  </li>
+</ul>

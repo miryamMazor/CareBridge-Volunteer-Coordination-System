@@ -1,0 +1,52 @@
+
+<div class="container">
+    <div class="form-container">
+      <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="Enter Username"
+          formControlName="username"
+        />
+        <div *ngIf="loginForm.get('username')?.touched && loginForm.get('username')?.invalid">
+          <p *ngIf="loginForm.get('username')?.hasError('required')">Username is required.</p>
+          <p *ngIf="loginForm.get('username')?.hasError('minlength')">Username must be at least 3 characters.</p>
+        </div>
+  
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter Password"
+          formControlName="password"
+        />
+        <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">
+          <p *ngIf="loginForm.get('password')?.hasError('required')">Password is required.</p>
+          <p *ngIf="loginForm.get('password')?.hasError('minlength')">Password must be at least 6 characters.</p>
+        </div>
+  
+        <button type="submit" [disabled]="loginForm.invalid">Login</button>
+      </form>
+  
+      <form [formGroup]="signupForm" (ngSubmit)="onSignup()">
+        <h2>Sign Up</h2>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter Name" formControlName="name" />
+        <div *ngIf="signupForm.get('name')?.touched && signupForm.get('name')?.invalid">
+          <p *ngIf="signupForm.get('name')?.hasError('required')">Name is required.</p>
+        </div>
+  
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter Email" formControlName="email" />
+        <div *ngIf="signupForm.get('email')?.touched && signupForm.get('email')?.invalid">
+          <p *ngIf="signupForm.get('email')?.hasError('required')">Email is required.</p>
+          <p *ngIf="signupForm.get('email')?.hasError('email')">Enter a valid email.</p>
+        </div>
+  
+        <button type="submit" [disabled]="signupForm.invalid">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  

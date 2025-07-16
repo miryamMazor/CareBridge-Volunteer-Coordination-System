@@ -1,0 +1,18 @@
+<h2>🤝 רשימת מתנדבים</h2>
+
+<!-- שדה חיפוש -->
+<input 
+  type="text" 
+  [(ngModel)]="searchTerm" 
+  (input)="filterVolunteers()" 
+  placeholder="🔍 חפש מתנדב לפי שם, טלפון או ת.ז" 
+  class="search-input"
+>
+
+<ul class="volunteer-list">
+  <li *ngFor="let volunteer of filteredVolunteers" class="volunteer-item">
+    <span class="volunteer-name">🏥 {{ volunteer.name }}</span>
+    <span class="volunteer-phone">📞 {{ volunteer.phone }}</span>
+    <span class="volunteer-tz">🔢 {{ volunteer.tz }}</span>
+  </li>
+</ul>

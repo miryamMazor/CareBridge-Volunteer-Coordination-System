@@ -1,0 +1,141 @@
+<!-- <div class="container">
+    <div class="box"></div>
+    <div class="container-forms">
+        <div class="container-info">
+            <div class="info-item">
+                <div class="table">
+                    <div class="table-cell">
+
+                    </div>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="table">
+                    <div class="table-cell">
+                        <p>
+                            פניה חדשה
+                        </p>
+                        <div class="btn" (click)="sendLogin()">
+                            שלח
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-form">
+            <form (ngSubmit)="sendLogin()" [formGroup]="formContact">
+                <div class="form-item log-in">
+                    <div class="table">
+                        <div class="table-cell">
+                            <label class="myinvalid" for="ID">תאור הבקשה</label>
+                            <textarea name="text" placeholder="תיאור" type="text" formControlName="Desc"></textarea>
+                            <div class="additives">
+                                <button>יש פעילות , תבוא בבקשה</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div> -->
+<!-- 
+<div class="container">
+    <div class="box"></div>
+    <div class="container-forms">
+      <div class="container-info">
+        <div class="info-item">
+          <div class="table">
+            <div class="table-cell"></div>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="table">
+            <div class="table-cell">
+              <p>פניה חדשה</p>
+              <div class="btn" (click)="sendLogin()">שלח</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container-form">
+        <form (ngSubmit)="sendLogin()" [formGroup]="formContact">
+          <div class="form-item log-in">
+            <div class="table">
+              <div class="table-cell">
+                <label class="myinvalid" for="Desc">תאור הבקשה</label>
+                <textarea name="text" placeholder="תיאור" formControlName="Desc"></textarea>
+                <div class="additives">
+                  <button>יש פעילות , תבוא בבקשה</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  <br><br><br><br><br>
+    <div class="overflow-x-auto shadow-lg rounded-lg bg-white mt-4">
+      <table class="min-w-full bg-white">
+        <thead class="bg-gray-200">
+          <tr>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">תאור</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">תאריך</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">סטטוס</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">מתנדב</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-200">
+          <tr *ngFor="let contact of contacts">
+            <td class="px-6 py-4 whitespace-nowrap">{{ contact.description }}</td>
+            <td class="px-6 py-4 whitespace-nowrap">{{ contact.date | date }}</td>
+            <td class="px-6 py-4 whitespace-nowrap">{{ contact.statusId }}</td>
+            <td class="px-6 py-4 whitespace-nowrap">{{ contact.volunteerId }}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+   --> 
+
+   <div class="container">
+    <div class="box"></div>
+    <div class="container-forms">
+        <div class="container-info">
+            <div class="info-item">
+                <div class="table">
+                    <div class="table-cell"></div>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="table">
+                    <div class="table-cell">
+                        <p>פניה חדשה</p>
+                        <div class="btn" (click)="sendLogin()">שלח</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="container-form">
+            <form (ngSubmit)="sendLogin()" [formGroup]="formContact">
+                <div class="form-item log-in">
+                    <div class="table">
+                        <div class="table-cell">
+                            <label class="myinvalid" for="Desc">תאור הבקשה</label>
+                            <textarea name="text" placeholder="תיאור" formControlName="Desc"></textarea>
+                            <div class="additives">
+                                <button>יש פעילות , תבוא בבקשה</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

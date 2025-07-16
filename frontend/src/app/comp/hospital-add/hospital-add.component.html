@@ -1,0 +1,20 @@
+<h2>➕ הוספת בית חולים</h2>
+
+<form (ngSubmit)="addHospital()" class="hospital-form">
+  <label>🏥 שם בית חולים</label>
+  <input type="text" [(ngModel)]="hospital.name" name="name" placeholder="הכנס שם" required>
+
+  <label>👨‍⚕️ שם המנהל</label>
+  <input type="text" [(ngModel)]="hospital.manager" name="manager" placeholder="שם המנהל" required>
+
+  <label>🆔 תעודת זהות</label>
+  <input type="text" [(ngModel)]="hospital.tz" name="tz" placeholder="תעודת זהות" required>
+
+  <label>🔑 סיסמה</label>
+  <input type="password" [(ngModel)]="hospital.password" name="password" placeholder="סיסמה" required>
+
+  <label>📞 טלפון</label>
+  <input type="text" [(ngModel)]="hospital.phone" name="phone" placeholder="מספר טלפון" required>
+
+  <button type="submit">➕ הוסף בית חולים</button>
+</form>

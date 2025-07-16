@@ -1,0 +1,46 @@
+.hospital-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hospital-item {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hospital-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.department-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  background-color: #8e509c2d;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.department-item {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.department-item:last-child {
+  border-bottom: none;
+}

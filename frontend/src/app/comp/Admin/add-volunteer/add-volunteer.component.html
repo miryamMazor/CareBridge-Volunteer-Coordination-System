@@ -1,0 +1,58 @@
+<h2>➕ הוספת מתנדב</h2>
+
+<form (ngSubmit)="addVolunteer()" class="volunteer-form">
+    <label>🙋‍♂️ שם מלא</label>
+    <input type="text" [(ngModel)]="volunteer.name" name="Name" placeholder="הכנס שם מלא" required>
+
+    <label>🆔 תעודת זהות</label>
+    <input type="text" [(ngModel)]="volunteer.tz" name="Tz" placeholder="תעודת זהות" required>
+
+    <label>🔑 סיסמה</label>
+    <input type="password" [(ngModel)]="volunteer.password" name="Password" placeholder="סיסמה" required>
+
+    <label>📞 טלפון</label>
+    <input type="text" [(ngModel)]="volunteer.phone" name="Phone" placeholder="מספר טלפון" required>
+
+    <label>⚧ מגדר</label>
+    <select [(ngModel)]="volunteer.gender" name="Gender">
+        <option [value]="null">בחר מגדר</option>
+        <option value="זכר">זכר</option>
+        <option value="נקבה">נקבה</option>
+        <option value="אחר">אחר</option>
+    </select>
+
+    <label>🏥 בית חולים</label>
+    <select [(ngModel)]="volunteer.hospitalId" name="HospitalId" (change)="onHospitalChange(volunteer.hospitalId!)"
+        required>
+        <option [value]="null">בחר בית חולים</option>
+        <option *ngFor="let hospital of hospitals" [value]="hospital.id">{{ hospital.name }}</option>
+    </select>
+
+    <label>🏨 מחלקה</label>
+    <select [(ngModel)]="volunteer.departmentId" name="DepartmentId" [disabled]="isDepartmentDisabled" required>
+        <option [value]="null">בחר מחלקה</option>
+        <option *ngFor="let department of departments" [value]="department.id">{{ department.name }}</option>
+    </select>
+
+    <label>📌 סטטוס</label>
+    <select [(ngModel)]="volunteer.StatusId" name="StatusId" required>
+        <option *ngFor="let status of statuses" [value]="status.id">{{ status.description }}</option>
+    </select>
+
+    <button type="submit">➕ הוסף מתנדב</button>
+
+
+<br><br><br><h3>לעלות מתנדבים מקובץ CSV</h3>
+  <input type="file" (change)="onFileChange($event)" accept=".xls, .xlsx">
+<button (click)="addVolunteersFromExcel()" [disabled]="!volunteersFromExcel.length">
+  הוסף מתנדבים מהרשימה
+</button>
+
+<h3>רשימת מתנדבים:</h3>
+<ul>
+  <li *ngFor="let volunteer in volunteer">
+    {{ volunteer.name }} - {{ volunteer.email }} - {{ volunteer.phone }}
+  </li>
+</ul>
+
+</form>

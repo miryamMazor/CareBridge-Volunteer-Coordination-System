@@ -1,0 +1,16 @@
+<h2>🏥 רשימת מטופלים</h2>
+
+<!-- שדה חיפוש -->
+<input 
+  type="text" 
+  [(ngModel)]="searchTerm" 
+  (input)="filterPatients()" 
+  placeholder="🔍 חפש מטופל לפי שם, טלפון, ת.ז או חדר" 
+  class="search-input"
+>
+
+<ul class="patient-list">
+  <li *ngFor="let patient of filteredPatients">
+    👤 {{ patient.name }} - 📞 {{ patient.phone }} - 🔢 {{ patient.tz }} - 🚑 חדר {{ patient.roomNumber }}
+  </li>
+</ul>

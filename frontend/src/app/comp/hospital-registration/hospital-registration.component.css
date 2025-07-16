@@ -1,0 +1,60 @@
+.hospital-registration {
+    font-family: Arial, sans-serif;
+    background-color: #f9f6fb;
+    color: #4a154b;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6a0dad;
+  }
+  
+  fieldset {
+    border: 1px solid #6a0dad;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #6a0dad;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .message {
+    text-align: center;
+    color: #d9534f;
+    font-weight: bold;
+  }
+  

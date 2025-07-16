@@ -1,0 +1,41 @@
+<h2>📋 ניהול פניות מטופלים</h2>
+
+<table class="table-fill">
+  <thead>
+    <tr>
+      <th class="text-left">📌 מספר פנייה</th>
+      <th class="text-left">🏥 שם מתנדב</th>
+      <th class="text-left">📝 תאור</th>
+      <th class="text-left">📅 תאריך פנייה</th>
+      <th class="text-left">📊 סטטוס</th>
+      <th class="text-left">⚙️ פעולות</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of contacts">
+      <td>{{ contact.id }}</td>
+      <td> {{ contact.volunteername }} </td>
+      <td>{{ contact.description }}</td>
+      <td>{{ contact.date | date:'dd/MM/yyyy' }}</td>
+      <td>{{ contact.status }}</td>
+      <td>
+        <button class="assign-btn-vol" (click)="openVolunteerDetails(contact.volunteerId)">
+            📋 פרטי המתנדב
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div *ngIf="selectedVolunteer" class="volunteer-details">
+    <h3>פרטי מתנדב</h3>
+    <p><strong>שם:</strong> {{ selectedVolunteer.name }}</p>
+    <p><strong>טלפון:</strong> {{ selectedVolunteer.phone }}</p>
+    <p><strong>מספר מזהה:</strong> {{ selectedVolunteer.id }}</p>
+    <!-- <p><strong>תפקיד:</strong> {{ selectedVolunteer.hospitalId }}</p>
+    <p><strong>תפקיד:</strong> {{ selectedVolunteer.departmentId }}</p>     -->
+    <!-- <p><strong>תפקיד:</strong> {{ selectedVolunteer. }}</p> -->
+
+    <button (click)="closeVolunteerDetails()">❌ סגור</button>
+  </div>
